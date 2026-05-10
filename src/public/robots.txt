@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://windshorecrest.pro/sitemap.xml
+Sitemap: https://plainvalleybank.site/sitemap.xml

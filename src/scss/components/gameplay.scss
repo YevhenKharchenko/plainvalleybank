@@ -5,20 +5,20 @@
 
 .gameplay-bg-wrapper {
   padding-top: 48px;
-  padding-bottom: 64px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-  position: relative;
 
   @include media(desktop) {
-    padding-bottom: 80px;
     max-width: 1440px;
   }
 }
 
 .gameplay-container {
+  padding: 0;
+
+  @include media(desktop) {
+  }
 }
 
 .gameplay-title {
@@ -27,93 +27,45 @@
 }
 
 .gameplay-subtitle {
+  max-width: 283px;
+  margin-left: auto;
+  margin-right: auto;
+
   @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.gameplay-text-wrapper {
+  padding: 0 16px;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    padding: 0 120px;
+    margin-bottom: 0;
   }
 }
 
 .gameplay-text {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #343945;
-  margin-bottom: 32px;
+  color: #182f3b;
 
   @include media(desktop) {
-    margin-bottom: 48px;
+    font-size: 16px;
+    max-width: 1058px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-.gameplay-swiper-container {
-  max-width: 273px;
+.gameplay-img {
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
-    max-width: 1440px;
-  }
-}
-
-.gameplay-swiper-container.show {
-  visibility: visible;
-}
-
-.gameplay-swiper-wrapper {
-  @include media(desktop) {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 32px;
-  }
-}
-
-.gameplay-slide {
-  box-shadow: 1px 2px 2px 0 rgba(52, 57, 69, 0.4);
-  background: #787ba3;
-  border: 1px solid #9cb4ce;
-  border-radius: 16px;
-  padding: 30px;
-  max-width: 273px;
-  display: flex !important;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-
-  @include media(desktop) {
-    max-width: 304px;
-  }
-}
-
-.gameplay-item-img {
-  @include media(desktop) {
-  }
-}
-
-.gameplay-item-title {
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #fafafa;
-
-  @include media(desktop) {
-  }
-}
-
-.gameplay-item-text {
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 1.5;
-  text-align: center;
-  color: #fafafa;
-  max-width: 209px;
-  margin-left: auto;
-  margin-right: auto;
-
-  @include media(desktop) {
-    max-width: 240px;
   }
 }

@@ -118,7 +118,6 @@
   &:hover,
   &:focus,
   &:active {
-    background: linear-gradient(180deg, #7e57c2 0%, #4a3078 100%);
   }
 
   @include media(desktop) {

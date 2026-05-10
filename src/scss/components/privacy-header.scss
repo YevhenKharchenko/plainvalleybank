@@ -15,12 +15,12 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 10px;
   line-height: 1.5;
   text-align: center;
-  color: #343945;
+  color: #182f3b;
   max-width: max-content;
 
   @include media(desktop) {
@@ -28,6 +28,6 @@
 }
 
 .arrow-back-icon {
-  stroke: #343945;
+  stroke: #182f3b;
   fill: none;
 }

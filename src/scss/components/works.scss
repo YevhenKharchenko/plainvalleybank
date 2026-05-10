@@ -1,20 +1,29 @@
 .works-section {
-  background: #bccbda;
+  @include media(desktop) {
+  }
+}
+
+.works-section-wrapper {
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/works/works-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
 
   @include media(desktop) {
+    max-width: 1440px;
+    background-image: url(../img/works/works-bg-desk.jpg);
   }
 }
 
 .works-bg-wrapper {
   padding-top: 48px;
-  padding-bottom: 64px;
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-bottom: 250px;
 
   @include media(desktop) {
-    padding-bottom: 80px;
-    max-width: 1440px;
+    padding-bottom: 234px;
   }
 }
 
@@ -23,92 +32,26 @@
   }
 }
 
-.works-title {
-  @include media(desktop) {
-  }
-}
-
-.works-text {
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #343945;
-  margin-bottom: 32px;
-
-  @include media(desktop) {
-    margin-bottom: 48px;
-  }
-}
-
-.works-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  gap: 8px;
-
-  @include media(desktop) {
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 32px;
-  }
-}
-
-.works-list-item {
-  box-shadow: 1px 2px 2px 0 rgba(52, 57, 69, 0.4);
-  background: #fafafa;
-  border: 2px solid #9cb4ce;
-  border-radius: 16px;
-  padding: 22px 2px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
-  max-width: 164px;
-
-  @include media(desktop) {
-    padding: 30px;
-    max-width: 240px;
-  }
-}
-
-.works-item-number {
-  font-family: 'Staatliches', sans-serif;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 1;
-  text-transform: uppercase;
-  text-align: center;
-  color: #63666b;
-
-  @include media(desktop) {
-  }
-}
-
-.works-item-title {
-  font-family: 'Comfortaa', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  color: #343945;
-  max-width: 110px;
+.works-subtitle {
+  max-width: 283px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
     max-width: max-content;
   }
 }
 
-.works-item-text {
-  font-family: 'Comfortaa', sans-serif;
+.works-text {
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #343945;
+  color: #182f3b;
 
   @include media(desktop) {
+    font-size: 16px;
+    max-width: 1058px;
   }
 }

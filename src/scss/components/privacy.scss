@@ -16,7 +16,7 @@
   line-height: 1;
   text-transform: uppercase;
   text-align: center;
-  color: #343945;
+  color: #182f3b;
   margin-bottom: 40px;
 
   @include media(desktop) {
@@ -26,23 +26,24 @@
 }
 
 .policy-title {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
-  color: #343945;
+  color: #182f3b;
   margin-bottom: 16px;
 
   @include media(desktop) {
+    font-size: 20px;
   }
 }
 
 .policy-text {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  color: #343945;
+  color: #182f3b;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -58,11 +59,11 @@
 }
 
 .policy-item {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  color: #343945;
+  color: #182f3b;
   margin-bottom: 8px;
 
   &:last-child {
