@@ -1,5 +1,5 @@
 .footer {
-  background: #787ba3;
+  background: #182f3b;
 
   @include media(desktop) {
   }
@@ -35,16 +35,13 @@
 }
 
 .footer-top-text {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
   color: #fafafa;
 
   @include media(desktop) {
-    min-width: 237px;
     order: 1;
   }
 }
@@ -71,10 +68,12 @@
 }
 
 .footer-link {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
   color: #fafafa;
 
   @include media(desktop) {
@@ -82,7 +81,7 @@
 }
 
 .footer-text {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
