@@ -1,0 +1,51 @@
+.about-section {
+  background-image: url(../img/about/about-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
+
+  @include media(desktop) {
+    background-image: url(../img/about/about-bg-desk.jpg);
+  }
+}
+
+.about-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 64px;
+
+  @include media(desktop) {
+    padding-bottom: 80px;
+  }
+}
+
+.about-container {
+  @include media(desktop) {
+  }
+}
+
+.about-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.about-title {
+  @include media(desktop) {
+  }
+}
+
+.about-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.about-text {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #343945;
+
+  @include media(desktop) {
+  }
+}
