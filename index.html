@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ocean Rescue: Match 3 Game – Restore the Ocean One Puzzle at a Time
+    </title>
+    <meta
+      name="description"
+      content="Play Ocean Rescue: Match 3 Game and dive into a story-driven puzzle adventure. Rescue sea turtles, clean ocean debris, and restore coral reefs through relaxing and strategic gameplay."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="/plainvalleybank/favicon.png" />
+    
+    <script type="module" crossorigin src="/plainvalleybank/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/plainvalleybank/assets/vendor-0d74985d.js">
+    <link rel="stylesheet" href="/plainvalleybank/assets/vendor-fb046256.css">
+    <link rel="stylesheet" href="/plainvalleybank/assets/styles-92633fca.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <a class="header-logo-link" href="./">
+        <picture>
+          <source
+            srcset="/plainvalleybank/assets/header-logo-desk-9a5bc60d.png "
+            media="(min-width: 1440px)"
+            width="32"
+            height="32" />
+          <source
+            srcset="/plainvalleybank/assets/header-logo-mob-ebf4d119.png "
+            width="24"
+            height="24" />
+          <img
+            class="header-logo-img"
+            src="/plainvalleybank/assets/header-logo-mob-ebf4d119.png"
+            alt="Logo"
+            width="24"
+            height="24" /></picture
+      ></a>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#about"
+            >Mission Behind the Game</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#works"
+            >Storyline Journey</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#gameplay"
+            >Core Gameplay</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#progression"
+            >Rescue Missions</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#advantages"
+            >Ocean Powers and Boosters</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#transformation"
+            >Visual Transformation</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#features"
+            >Why Players Stay</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#faq">FAQ</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#cta">Play Now</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="24" height="24">
+          <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="24" height="24">
+          <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <div class="hero-content-wrapper">
+        <div class="hero-text-wrapper">
+          <h1 class="hero-main-title">Match, Clean, Rescue</h1>
+          <p class="hero-subtitle">
+            An underwater match-3 adventure where every level saves a piece of
+            the ocean.
+          </p>
+          <p class="hero-text">
+            Okay, so Ocean Rescue isn't your typical match-3 game where you just
+            mindlessly swap tiles forever. Honestly, each level actually feels
+            like it matters? Like you're not just chasing some meaningless high
+            score for once. You begin near polluted shores where plastic drifts
+            through shallow water, then slowly move into fragile coral gardens,
+            hidden kelp forests, and deeper ocean zones that need your help. You
+            get all that colorful puzzle fun, but what really got me hooked is
+            how every single move feels important. But here's the thing that
+            blew my mind - the ocean literally transforms as you play. I wasn't
+            expecting that at all.
+          </p>
+          <a
+            class="hero-btn"
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.AjnA.OceanRescue&hl=en&gl=us"
+            rel="noopener noreferrer"
+            aria-label="Download on Google Play"
+            ><svg class="playstore-icon" width="195" height="44">
+              <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-playstore"></use></svg
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section about-section" id="about">
+  <div class="section-title-wrapper about-title-wrapper">
+    <div class="container section-title-container">
+      <img
+        class="section-title-img"
+        src="data:image/png;base64,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"
+        alt="Star"
+        width="15"
+        height="15"
+      />
+      <h2 class="section-title about-title">Mission Behind the Game</h2>
+    </div>
+  </div>
+  <div class="about-bg-wrapper">
+    <div class="container about-container">
+      <p class="section-subtitle about-subtitle">More Than a Puzzle</p>
+      <div class="about-content-wrapper">
+        <p class="about-text">
+          Look, I'm so tired of pointless high scores. Finally, there's a
+          match-3 game where I actually give a damn about what I'm doing. Every
+          level asks you to step into a new situation and solve it with purpose.
+          Sometimes the mission is urgent, sometimes delicate, sometimes
+          surprisingly emotional. Instead of moving through identical boards,
+          you move through environmental challenges that feel connected to a
+          wider ocean story.
+        </p>
+        <picture>
+          <source
+            srcset="/plainvalleybank/assets/about-img-desk-f2e111a4.png "
+            media="(min-width: 1440px)"
+            width="1058"
+            height="549" />
+          <source
+            srcset="/plainvalleybank/assets/about-img-mob-0fdd931b.png "
+            width="343"
+            height="178" />
+          <img
+            class="about-img"
+            src="/plainvalleybank/assets/about-img-mob-0fdd931b.png"
+            alt="Screenshot of the game"
+            width="343"
+            height="178"
+            loading="lazy"
+        /></picture>
+        <p class="about-text">
+          And that's exactly why I got so addicted to it. One level may ask you
+          to free a trapped path for hatchlings. Another may focus on collecting
+          scattered debris before it spreads farther into the reef. Later levels
+          bring damaged coral zones that can only be restored by careful
+          combinations and well-timed boosters. So you end up with a match-3
+          game that actually feels like it's going somewhere.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="works-section section" id="works">
+  <div class="works-section-wrapper">
+    <div class="section-title-wrapper benefits-title-wrapper">
+      <div class="container section-title-container">
+        <img
+          class="section-title-img"
+          src="data:image/png;base64,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"
+          alt="Star"
+          width="15"
+          height="15"
+        />
+        <h2 class="section-title works-title">Storyline Journey</h2>
+      </div>
+    </div>
+    <div class="works-bg-wrapper">
+      <div class="container works-container">
+        <p class="section-subtitle works-subtitle">
+          A Journey Through Changing Waters
+        </p>
+        <p class="works-text">
+          You start out on these really depressing beaches - trash everywhere,
+          murky water, the works. Sand is covered in waste, water is clouded,
+          and marine life struggles to move freely. As you advance, the world
+          opens gradually. You dive farther from shore and discover reef systems
+          fading from pollution, ancient kelp corridors moving in slow green
+          waves, and deep-sea corners where silence hides forgotten damage.<br />
+          Every completed mission changes the emotional rhythm of the journey.
+          Areas that first looked lifeless begin to glow again. Water becomes
+          brighter. Coral regains color. Sea creatures return. The
+          transformation thing? That's what got me completely hooked.<br />
+          Most games just have these boring static backgrounds, but this one
+          actually evolves with you.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="gameplay-section section" id="gameplay">
+  <div class="section-title-wrapper benefits-title-wrapper">
+    <div class="container section-title-container">
+      <img
+        class="section-title-img"
+        src="data:image/png;base64,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"
+        alt="Star"
+        width="15"
+        height="15"
+      />
+      <h2 class="section-title gameplay-title">Core Gameplay</h2>
+    </div>
+  </div>
+  <div class="gameplay-bg-wrapper">
+    <div class="container gameplay-container">
+      <div class="gameplay-text-wrapper">
+        <p class="section-subtitle gameplay-subtitle">
+          Classic Match-3, Reimagined for the Ocean
+        </p>
+        <p class="gameplay-text">
+          Don't worry, it's still got all the match-3 stuff you love: match
+          colorful items, trigger chain reactions, and build powerful
+          combinations. But the underwater setting gives everything a fresh
+          identity. Instead of ordinary gems or candy pieces, the board is
+          filled with ocean-inspired elements like shells, starfish, tropical
+          fish, and special Sea Turtle Gems that can turn the tide of a
+          difficult mission. It's ridiculously easy to learn, but there's
+          something about it that just... sticks with you, you know? Each board
+          is tied to a clear purpose, so your moves never feel disconnected from
+          the world around you. Matching is not only about clearing tiles — it
+          is about opening routes, collecting harmful waste, and restoring
+          fragile marine habitats.
+        </p>
+      </div>
+      <picture>
+        <source
+          srcset="/plainvalleybank/assets/gameplay-img-desk-610049ee.jpg "
+          media="(min-width: 1440px)"
+          width="1440"
+          height="617" />
+        <source
+          srcset="/plainvalleybank/assets/gameplay-img-mob-0605faef.jpg "
+          width="375"
+          height="185" />
+        <img
+          class="gameplay-item-img"
+          src="/plainvalleybank/assets/gameplay-img-mob-0605faef.jpg"
+          alt="Screenshot of the game"
+          width="375"
+          height="185"
+          loading="lazy"
+      /></picture>
+    </div>
+  </div>
+</section>
+
+      <section class="progression-section section" id="progression">
+  <div class="section-title-wrapper benefits-title-wrapper">
+    <div class="container section-title-container">
+      <img
+        class="section-title-img"
+        src="data:image/png;base64,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"
+        alt="Star"
+        width="15"
+        height="15"
+      />
+      <h2 class="section-title progression-title">Rescue Missions</h2>
+    </div>
+  </div>
+  <div class="progression-bg-wrapper">
+    <div class="container progression-container">
+      <p class="section-subtitle progression-subtitle">
+        Every Level Has a Purpose
+      </p>
+      <p class="progression-text">
+        Wind Down isn’t limited to one moment per day. When you feel like
+        playing more, there’s always something waiting.
+      </p>
+      <div class="progression-swiper-container">
+        <ul class="swiper-wrapper progression-swiper-wrapper">
+          <li class="swiper-slide progression-slide">
+            <picture>
+              <source
+                srcset="/plainvalleybank/assets/progression-img1-desk-2080ad3a.png "
+                media="(min-width: 1440px)"
+                width="178"
+                height="178" />
+              <source
+                srcset="/plainvalleybank/assets/progression-img1-mob-c2a72015.png "
+                width="200"
+                height="200" />
+              <img
+                class="progression-item-img"
+                src="/plainvalleybank/assets/progression-img1-mob-c2a72015.png"
+                alt="Screenshot of the game"
+                width="200"
+                height="200"
+                loading="lazy"
+            /></picture>
+            <h3 class="progression-item-title">Rescue Baby Turtles</h3>
+            <p class="progression-item-text">
+              Clear obstacles and open safe routes so baby turtles can reach the
+              water and continue their journey.
+            </p>
+          </li>
+          <li class="swiper-slide progression-slide">
+            <picture>
+              <source
+                srcset="/plainvalleybank/assets/progression-img2-desk-78835ae5.png "
+                media="(min-width: 1440px)"
+                width="178"
+                height="178" />
+              <source
+                srcset="/plainvalleybank/assets/progression-img2-mob-cd17e484.png "
+                width="200"
+                height="200" />
+              <img
+                class="progression-item-img"
+                src="/plainvalleybank/assets/progression-img2-mob-cd17e484.png"
+                alt="Screenshot of the game"
+                width="200"
+                height="200"
+                loading="lazy"
+            /></picture>
+            <h3 class="progression-item-title">Collect Ocean Debris</h3>
+            <p class="progression-item-text">
+              Match and remove harmful objects like plastic bottles, fishing
+              nets, and scattered waste before they overwhelm the board.
+            </p>
+          </li>
+          <li class="swiper-slide progression-slide">
+            <picture>
+              <source
+                srcset="/plainvalleybank/assets/progression-img3-desk-6ce3c6fa.png "
+                media="(min-width: 1440px)"
+                width="178"
+                height="178" />
+              <source
+                srcset="/plainvalleybank/assets/progression-img3-mob-519ccec6.png "
+                width="200"
+                height="200" />
+              <img
+                class="progression-item-img"
+                src="/plainvalleybank/assets/progression-img3-mob-519ccec6.png"
+                alt="Screenshot of the game"
+                width="200"
+                height="200"
+                loading="lazy"
+            /></picture>
+            <h3 class="progression-item-title">Restore Coral Reefs</h3>
+            <p class="progression-item-text">
+              Use precise matches and special items to heal damaged coral
+              patches and bring color back to underwater ecosystems.
+            </p>
+          </li>
+          <li class="swiper-slide progression-slide">
+            <picture>
+              <source
+                srcset="/plainvalleybank/assets/progression-img4-desk-83472c27.png "
+                media="(min-width: 1440px)"
+                width="178"
+                height="178" />
+              <source
+                srcset="/plainvalleybank/assets/progression-img4-mob-6db946f1.png "
+                width="200"
+                height="200" />
+              <img
+                class="progression-item-img"
+                src="/plainvalleybank/assets/progression-img4-mob-6db946f1.png"
+                alt="Screenshot of the game"
+                width="200"
+                height="200"
+                loading="lazy"
+            /></picture>
+            <h3 class="progression-item-title">Clear Hazard Zones</h3>
+            <p class="progression-item-text">
+              Break through blocked spaces, remove pollution clusters, and
+              reclaim areas hidden beneath layers of damage.
+            </p>
+          </li>
+          <li class="swiper-slide progression-slide">
+            <picture>
+              <source
+                srcset="/plainvalleybank/assets/progression-img5-desk-5f0611ec.png "
+                media="(min-width: 1440px)"
+                width="178"
+                height="178" />
+              <source
+                srcset="/plainvalleybank/assets/progression-img5-mob-c2a65722.png "
+                width="200"
+                height="200" />
+              <img
+                class="progression-item-img"
+                src="/plainvalleybank/assets/progression-img5-mob-c2a65722.png"
+                alt="Screenshot of the game"
+                width="200"
+                height="200"
+                loading="lazy"
+            /></picture>
+            <h3 class="progression-item-title">Protect Fragile Sea Life</h3>
+            <p class="progression-item-text">
+              Complete mission goals while keeping the environment stable and
+              creating space for marine creatures to return.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section advantages-section" id="advantages">
+  <div class="section-title-wrapper advantages-title-wrapper">
+    <div class="container section-title-container">
+      <img
+        class="section-title-img"
+        src="data:image/png;base64,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"
+        alt="Star"
+        width="15"
+        height="15"
+      />
+      <h2 class="section-title advantages-title">Ocean Powers and Boosters</h2>
+    </div>
+  </div>
+  <div class="advantages-bg-wrapper">
+    <div class="container advantages-container">
+      <p class="section-subtitle advantages-subtitle">
+        Build Powerful Sea Combos
+      </p>
+      <p class="advantages-text">
+        The deeper you go, the more important strategy becomes. Matching four or
+        five pieces unlocks special boosters designed around the world of the
+        game. These powers do not feel generic — they belong to the ocean
+        itself. The real magic happens when you chain these powers together -
+        it's incredibly satisfying. A carefully planned chain can suddenly
+        change the whole level, turning a cluttered problem into a clean,
+        glowing victory.
+      </p>
+      <ul class="advantages-list">
+        <li class="advantages-list-item">
+          <img
+            class="advantages-img"
+            src="/plainvalleybank/assets/advantages-img1-e0daff1e.png"
+            alt="Screenshot of the game"
+            width="56"
+            height="56"
+          />
+          <p class="advantages-item-text">
+            Swirling Water Bubble – clears surrounding tiles in a burst of
+            motion
+          </p>
+        </li>
+        <li class="advantages-list-item">
+          <img
+            class="advantages-img"
+            src="/plainvalleybank/assets/advantages-img2-9fa93a98.png"
+            alt="Screenshot of the game"
+            width="56"
+            height="56"
+          />
+          <p class="advantages-item-text">
+            Trash Net Catcher – sweeps debris from the board in one targeted
+            action
+          </p>
+        </li>
+        <li class="advantages-list-item">
+          <img
+            class="advantages-img"
+            src="/plainvalleybank/assets/advantages-img3-57a734f6.png"
+            alt="Screenshot of the game"
+            width="56"
+            height="56"
+          />
+          <p class="advantages-item-text">
+            Ocean Current – moves through a line or wide lane, pushing through
+            obstacles
+          </p>
+        </li>
+        <li class="advantages-list-item">
+          <img
+            class="advantages-img"
+            src="/plainvalleybank/assets/advantages-img4-3ef65610.png"
+            alt="Screenshot of the game"
+            width="56"
+            height="56"
+          />
+          <p class="advantages-item-text">
+            Sea Turtle Gem – a rare and powerful piece that can trigger dramatic
+            board-clearing effects
+          </p>
+        </li>
+        <li class="advantages-list-item">
+          <img
+            class="advantages-img"
+            src="/plainvalleybank/assets/advantages-img5-475523ed.png"
+            alt="Screenshot of the game"
+            width="56"
+            height="56"
+          />
+          <p class="advantages-item-text">
+            Coral Pulse – restores damaged mission zones and supports healing
+            objectives
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="transformation-section section" id="transformation">
+  <div class="section-title-wrapper benefits-title-wrapper">
+    <div class="container section-title-container">
+      <img
+        class="section-title-img"
+        src="data:image/png;base64,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"
+        alt="Star"
+        width="15"
+        height="15"
+      />
+      <h2 class="section-title transformation-title">Visual Transformation</h2>
+    </div>
+  </div>
+  <div class="transformation-bg-wrapper">
+    <div class="container transformation-container">
+      <div class="transformation-text-wrapper">
+        <p class="section-subtitle transformation-subtitle">
+          Watch the Ocean Come Back to Life
+        </p>
+        <p class="transformation-text">
+          You know what completely sold me? Watching my actual impact unfold
+          right in front of me. And trust me, that makes all the difference. It
+          is one thing to complete a level, but it is something else entirely to
+          see the environment respond. Polluted water clears. Reefs brighten.
+          Sea plants regain movement and color. The board itself becomes part of
+          the storytelling, and each finished mission leaves behind a small but
+          noticeable sign of recovery.<br />
+          This visual contrast gives the game a strong emotional edge. You do
+          not just move to the next puzzle — you leave a cleaner, healthier
+          space behind you. That sense of before and after makes the whole
+          experience more rewarding.
+        </p>
+      </div>
+      <picture>
+        <source
+          srcset="/plainvalleybank/assets/transformation-img-desk-47956e40.jpg "
+          media="(min-width: 1440px)"
+          width="1440"
+          height="553" />
+        <source
+          srcset="/plainvalleybank/assets/transformation-img-mob-3c814cfc.jpg "
+          width="375"
+          height="203" />
+        <img
+          class="transformation-item-img"
+          src="/plainvalleybank/assets/transformation-img-mob-3c814cfc.jpg"
+          alt="Screenshot of the game"
+          width="375"
+          height="203"
+          loading="lazy"
+      /></picture>
+    </div>
+  </div>
+</section>
+
+      <section class="features-section section" id="features">
+  <div class="section-title-wrapper benefits-title-wrapper">
+    <div class="container section-title-container">
+      <img
+        class="section-title-img"
+        src="data:image/png;base64,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"
+        alt="Star"
+        width="15"
+        height="15"
+      />
+      <h2 class="section-title features-title">Why Players Stay</h2>
+    </div>
+  </div>
+  <div class="features-bg-wrapper">
+    <div class="container features-container">
+      <p class="section-subtitle features-subtitle">
+        Why Ocean Rescue Feels Different
+      </p>
+      <ul class="features-list">
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/plainvalleybank/assets/features-img1-desk-361b8d11.png "
+              media="(min-width: 1440px)"
+              width="80"
+              height="80" />
+            <source
+              srcset="/plainvalleybank/assets/features-img1-mob-d15efd32.png "
+              width="64"
+              height="64" />
+            <img
+              class="features-item-img"
+              src="/plainvalleybank/assets/features-img1-mob-d15efd32.png"
+              alt="Screenshot of the game"
+              width="64"
+              height="64"
+              loading="lazy"
+          /></picture>
+          <p class="features-item-text">
+            Story-driven progression instead of repetitive stages
+          </p>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/plainvalleybank/assets/features-img2-desk-dccfb2ff.png "
+              media="(min-width: 1440px)"
+              width="80"
+              height="80" />
+            <source
+              srcset="/plainvalleybank/assets/features-img2-mob-29950b52.png "
+              width="64"
+              height="64" />
+            <img
+              class="features-item-img"
+              src="/plainvalleybank/assets/features-img2-mob-29950b52.png"
+              alt="Screenshot of the game"
+              width="64"
+              height="64"
+              loading="lazy"
+          /></picture>
+          <p class="features-item-text">
+            Mission-based gameplay with clear goals
+          </p>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/plainvalleybank/assets/features-img3-desk-c82056fb.png "
+              media="(min-width: 1440px)"
+              width="80"
+              height="80" />
+            <source
+              srcset="/plainvalleybank/assets/features-img3-mob-71f2fb7b.png "
+              width="64"
+              height="64" />
+            <img
+              class="features-item-img"
+              src="/plainvalleybank/assets/features-img3-mob-71f2fb7b.png"
+              alt="Screenshot of the game"
+              width="64"
+              height="64"
+              loading="lazy"
+          /></picture>
+          <p class="features-item-text">
+            Ocean-themed items and boosters that feel fresh
+          </p>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/plainvalleybank/assets/features-img4-desk-0db80cb3.png "
+              media="(min-width: 1440px)"
+              width="80"
+              height="80" />
+            <source
+              srcset="/plainvalleybank/assets/features-img4-mob-d71bc498.png "
+              width="64"
+              height="64" />
+            <img
+              class="features-item-img"
+              src="/plainvalleybank/assets/features-img4-mob-d71bc498.png"
+              alt="Screenshot of the game"
+              width="64"
+              height="64"
+              loading="lazy"
+          /></picture>
+          <p class="features-item-text">
+            Rich underwater visuals with satisfying transformation effects
+          </p>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/plainvalleybank/assets/features-img5-desk-d0cee93d.png "
+              media="(min-width: 1440px)"
+              width="80"
+              height="80" />
+            <source
+              srcset="/plainvalleybank/assets/features-img5-mob-e73bfc82.png "
+              width="64"
+              height="64" />
+            <img
+              class="features-item-img"
+              src="/plainvalleybank/assets/features-img5-mob-e73bfc82.png"
+              alt="Screenshot of the game"
+              width="64"
+              height="64"
+              loading="lazy"
+          /></picture>
+          <p class="features-item-text">
+            A balance of relaxation, strategy, and challenge
+          </p>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/plainvalleybank/assets/features-img6-desk-9ab1e6a2.png "
+              media="(min-width: 1440px)"
+              width="80"
+              height="80" />
+            <source
+              srcset="data:image/png;base64,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 "
+              width="64"
+              height="64" />
+            <img
+              class="features-item-img"
+              src="data:image/png;base64,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"
+              alt="Screenshot of the game"
+              width="64"
+              height="64"
+              loading="lazy"
+          /></picture>
+          <p class="features-item-text">
+            Levels that connect gameplay with a strong rescue theme
+          </p>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/plainvalleybank/assets/features-img7-desk-9e949cbe.png "
+              media="(min-width: 1440px)"
+              width="80"
+              height="80" />
+            <source
+              srcset="/plainvalleybank/assets/features-img7-mob-ea232493.png "
+              width="64"
+              height="64" />
+            <img
+              class="features-item-img"
+              src="/plainvalleybank/assets/features-img7-mob-ea232493.png"
+              alt="Screenshot of the game"
+              width="64"
+              height="64"
+              loading="lazy"
+          /></picture>
+          <p class="features-item-text">
+            A colorful world that keeps changing as you advance
+          </p>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/plainvalleybank/assets/features-img8-desk-03824a53.png "
+              media="(min-width: 1440px)"
+              width="80"
+              height="80" />
+            <source
+              srcset="/plainvalleybank/assets/features-img8-mob-b65a7719.png "
+              width="64"
+              height="64" />
+            <img
+              class="features-item-img"
+              src="/plainvalleybank/assets/features-img8-mob-b65a7719.png"
+              alt="Screenshot of the game"
+              width="64"
+              height="64"
+              loading="lazy"
+          /></picture>
+          <p class="features-item-text">
+            Easy to start, but engaging enough to keep mastering
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section faq-section" id="faq">
+  <div class="faq-section-wrapper">
+    <div class="section-title-wrapper faq-title-wrapper">
+      <div class="container section-title-container">
+        <img
+          class="section-title-img"
+          src="data:image/png;base64,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"
+          alt="Star"
+          width="15"
+          height="15"
+        />
+        <h2 class="section-title faq-title">FAQ</h2>
+      </div>
+    </div>
+    <div class="faq-bg-wrapper">
+      <div class="container faq-container">
+        <p class="section-subtitle">FAQ</p>
+        <ul class="faq-list">
+          <li class="faq-list-item">
+            <div class="faq-item-question-wrapper">
+              <button class="faq-top-text-btn">
+                <span class="faq-btn-text">Is Ocean Rescue easy to learn?</span>
+                <span class="faq-toggle-symbol"
+                  ><svg class="faq-icon" width="24" height="24">
+                    <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-caret"></use></svg
+                ></span>
+              </button>
+            </div>
+            <div class="faq-item-answer-wrapper">
+              <p class="faq-bottom-text">
+                Yes. The basic mechanics are simple and intuitive, so new
+                players can start quickly, while later missions add more
+                strategy and variety.
+              </p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <div class="faq-item-question-wrapper">
+              <button class="faq-top-text-btn">
+                <span class="faq-btn-text"
+                  >What makes this game different from other match-3
+                  titles?</span
+                >
+                <span class="faq-toggle-symbol"
+                  ><svg class="faq-icon" width="24" height="24">
+                    <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-caret"></use></svg
+                ></span>
+              </button>
+            </div>
+            <div class="faq-item-answer-wrapper">
+              <p class="faq-bottom-text">
+                Its mission structure. Each level feels tied to a purpose, such
+                as cleaning debris, rescuing turtles, or restoring coral, rather
+                than just reaching a score.
+              </p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <div class="faq-item-question-wrapper">
+              <button class="faq-top-text-btn">
+                <span class="faq-btn-text"
+                  >Are there special boosters in the game?</span
+                >
+                <span class="faq-toggle-symbol"
+                  ><svg class="faq-icon" width="24" height="24">
+                    <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-caret"></use></svg
+                ></span>
+              </button>
+            </div>
+            <div class="faq-item-answer-wrapper">
+              <p class="faq-bottom-text">
+                Yes. Matching larger groups creates ocean-themed boosters that
+                help clear wide areas, remove debris, and support mission
+                progress.
+              </p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <div class="faq-item-question-wrapper">
+              <button class="faq-top-text-btn">
+                <span class="faq-btn-text"
+                  >Does the environment change as I play?</span
+                >
+                <span class="faq-toggle-symbol"
+                  ><svg class="faq-icon" width="24" height="24">
+                    <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-caret"></use></svg
+                ></span>
+              </button>
+            </div>
+            <div class="faq-item-answer-wrapper">
+              <p class="faq-bottom-text">
+                Yes. One of the game’s strongest features is its visual
+                transformation. Polluted scenes become brighter and healthier
+                after successful missions.
+              </p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <div class="faq-item-question-wrapper">
+              <button class="faq-top-text-btn">
+                <span class="faq-btn-text">Is the game only about speed?</span>
+                <span class="faq-toggle-symbol"
+                  ><svg class="faq-icon" width="24" height="24">
+                    <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-caret"></use></svg
+                ></span>
+              </button>
+            </div>
+            <div class="faq-item-answer-wrapper">
+              <p class="faq-bottom-text">
+                No. Some levels reward quick thinking, but many require careful
+                planning and the smart use of boosters.
+              </p>
+            </div>
+          </li>
+          <li class="faq-list-item">
+            <div class="faq-item-question-wrapper">
+              <button class="faq-top-text-btn">
+                <span class="faq-btn-text">Who is this game for?</span>
+                <span class="faq-toggle-symbol"
+                  ><svg class="faq-icon" width="24" height="24">
+                    <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-caret"></use></svg
+                ></span>
+              </button>
+            </div>
+            <div class="faq-item-answer-wrapper">
+              <p class="faq-bottom-text">
+                It is suitable for players who enjoy colorful puzzle gameplay,
+                satisfying progression, and a more meaningful adventure
+                structure.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="cta-section section" id="cta">
+  <div class="cta-section-wrapper">
+    <div class="section-title-wrapper benefits-title-wrapper">
+      <div class="container section-title-container">
+        <img
+          class="section-title-img"
+          src="data:image/png;base64,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"
+          alt="Star"
+          width="15"
+          height="15"
+        />
+        <h2 class="section-title cta-title">Play now</h2>
+      </div>
+    </div>
+    <div class="cta-bg-wrapper">
+      <div class="container cta-container">
+        <p class="section-subtitle">The Ocean Won’t Clean Itself</p>
+        <p class="cta-text">
+          Most games are just time-killers, right? But this one actually makes
+          you feel like you're accomplishing something real. One match can open
+          a path. One combo can remove a wave of debris. One finished level can
+          turn a damaged place into something bright again. Little by little,
+          the sea starts to breathe.
+        </p>
+
+        <a
+          class="hero-btn cta-btn"
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=com.AjnA.OceanRescue&hl=en&gl=us"
+          rel="noopener noreferrer"
+          aria-label="Download on Google Play"
+          ><svg class="playstore-icon" width="195" height="44">
+            <use href="/plainvalleybank/assets/sprite-6aa4a34d.svg#icon-playstore"></use></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="footer-bg-wrapper">
+    <div class="container footer-container">
+      <div class="footer-content-wrapper">
+        <p class="footer-top-text">Ocean Rescue: Match 3 Game</p>
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a class="footer-link" href="./privacy-policy.html"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-link" href="./terms-and-conditions.html"
+                >Terms & Conditions</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <p class="footer-text">
+          © 2026 plainvalleybank.site<span class="footer-text-span"> — </span
+          ><br class="footer-text-br" />
+          All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="context-menu">
+  <nav class="context-nav">
+    <ul class="context-nav-list">
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#home">Home</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#about"
+          >Mission Behind the Game</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#works"
+          >Storyline Journey</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#gameplay"
+          >Core Gameplay</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#progression"
+          >Rescue Missions</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#advantages"
+          >Ocean Powers and Boosters</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#transformation"
+          >Visual Transformation</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#features"
+          >Why Players Stay</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#faq">FAQ</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#cta">Play Now</a>
+      </li>
+    </ul>
+    <ul class="context-privacy-list">
+      <li class="context-privacy-item">
+        <a class="context-privacy-link" href="./privacy-policy.html"
+          >Privacy Policy</a
+        >
+      </li>
+      <li class="context-privacy-item">
+        <a class="context-privacy-link" href="./terms-and-conditions.html"
+          >Terms & Conditions</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+    
+  </body>
+</html>
